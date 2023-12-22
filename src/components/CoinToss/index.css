@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(#f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.card-container {
+  background-color: #ffffff;
+  border: 0px solid;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-container img {
+  height: 100px;
+  width: 150px;
+}
+.card-container h1 {
+  color: #a35200;
+}
+.card-container p {
+  color: #334155;
+  font-weight: 500;
+}
+.card-container button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.calculation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
